@@ -13,6 +13,8 @@ const commentFieldEl = document.getElementById("comment-field")
 const postButtonEl = document.getElementById("post-button")
 const commentsEl = document.getElementById("comments")
 
+
+
 postButtonEl.addEventListener("click", function() {
     let inputValue = commentFieldEl.value
 

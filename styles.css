@@ -11,6 +11,10 @@ h1 {
     text-align: center;
 }
 
+h2 {
+    text-align: center;
+}
+
 .container {
     display: flex;
     flex-direction: column;
@@ -49,4 +53,25 @@ ol li {
     flex-grow: 1;
     box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.2);
     text-align: center;
+}
+
+#profile-button, #home-button, #match-button {
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    text-align: center;
+}
+
+.nav-buttons, .get-matched-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+}
+
+.favourite-buttons {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    gap: 15px;
 }
